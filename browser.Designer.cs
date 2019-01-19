@@ -54,7 +54,7 @@
             this.btnGo.TabIndex = 7;
             this.btnGo.Text = "GO";
             this.btnGo.UseVisualStyleBackColor = true;
-            this.btnGo.Click += new System.EventHandler(this.button2_Click);
+            this.btnGo.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button1
             // 
@@ -64,7 +64,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "SUMMARY";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1.Click += new System.EventHandler(this.Button1_Click_1);
             // 
             // txtAddress
             // 

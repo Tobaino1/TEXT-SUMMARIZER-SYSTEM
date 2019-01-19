@@ -88,7 +88,7 @@
             this.label1.Size = new System.Drawing.Size(124, 15);
             this.label1.TabIndex = 3;
             this.label1.Text = "Original / Source Text";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // label2
             // 
@@ -99,7 +99,7 @@
             this.label2.Size = new System.Drawing.Size(98, 15);
             this.label2.TabIndex = 4;
             this.label2.Text = "Summary Result";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.label2.Click += new System.EventHandler(this.Label2_Click);
             // 
             // label3
             // 
@@ -110,7 +110,7 @@
             this.label3.Size = new System.Drawing.Size(146, 15);
             this.label3.TabIndex = 5;
             this.label3.Text = "Desired Sentence Length";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label3.Click += new System.EventHandler(this.Label3_Click);
             // 
             // button1
             // 
@@ -121,7 +121,7 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Go online";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 
@@ -132,7 +132,7 @@
             this.button2.TabIndex = 10;
             this.button2.Text = "clear";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button3
             // 
@@ -143,7 +143,7 @@
             this.button3.TabIndex = 11;
             this.button3.Text = "clear";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // dateTimePicker1
             // 
@@ -165,7 +165,7 @@
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
             // numericUpDown1
             // 
@@ -173,7 +173,7 @@
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(77, 20);
             this.numericUpDown1.TabIndex = 33;
-            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.NumericUpDown1_ValueChanged);
             // 
             // button4
             // 
@@ -184,12 +184,12 @@
             this.button4.TabIndex = 34;
             this.button4.Text = "About";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            this.button4.Click += new System.EventHandler(this.Button4_Click_1);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::OTSApp.Properties.Resources.children;
-            this.pictureBox1.Location = new System.Drawing.Point(760, 80);
+            this.pictureBox1.Location = new System.Drawing.Point(760, 61);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(223, 194);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -205,7 +205,7 @@
             this.button5.TabIndex = 35;
             this.button5.Text = "Refresh";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Click += new System.EventHandler(this.Button5_Click);
             // 
             // button6
             // 
@@ -216,7 +216,7 @@
             this.button6.TabIndex = 36;
             this.button6.Text = "Exit";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.Click += new System.EventHandler(this.Button6_Click);
             // 
             // home_summary
             // 

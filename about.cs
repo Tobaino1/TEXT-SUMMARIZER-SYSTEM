@@ -15,12 +15,12 @@ namespace OTSApp
             InitializeComponent();
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void Label5_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Button4_Click(object sender, EventArgs e)
         {
             home_summary myform = new home_summary();
             myform.Show();
@@ -28,7 +28,7 @@ namespace OTSApp
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Button3_Click(object sender, EventArgs e)
         {
             browser myform = new browser();
             myform.Show();
@@ -36,17 +36,17 @@ namespace OTSApp
 
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void Button5_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void Panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void Button6_Click(object sender, EventArgs e)
         {
             browser myform = new browser();
             myform.Show();

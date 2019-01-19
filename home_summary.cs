@@ -45,7 +45,7 @@ namespace OTSApp
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
             browser myform = new browser();
             myform.Show();
@@ -53,22 +53,22 @@ namespace OTSApp
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
             OriginalTextBox.Clear();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Button3_Click(object sender, EventArgs e)
         {
             SummaryTextBox.Clear();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void Label3_Click(object sender, EventArgs e)
         {
 
         }
@@ -78,27 +78,27 @@ namespace OTSApp
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void Label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Button4_Click(object sender, EventArgs e)
         {
           
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void Timer1_Tick(object sender, EventArgs e)
         {
             label5.Text = DateTime.Now.ToString();
         }
 
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        private void NumericUpDown1_ValueChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void button4_Click_1(object sender, EventArgs e)
+        private void Button4_Click_1(object sender, EventArgs e)
         {
               about myform = new about();
             myform.Show();
@@ -106,14 +106,14 @@ namespace OTSApp
 
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void Button5_Click(object sender, EventArgs e)
         {
             home_summary myform = new home_summary();
             myform.Show();
             this.Hide();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void Button6_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

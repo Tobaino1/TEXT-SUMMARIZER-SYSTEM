@@ -81,7 +81,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(980, 516);
             this.panel1.TabIndex = 18;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1_Paint);
             // 
             // pictureBox5
             // 
@@ -122,7 +122,7 @@
             this.button5.TabIndex = 37;
             this.button5.Text = "Exit";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Click += new System.EventHandler(this.Button5_Click);
             // 
             // button4
             // 
@@ -133,7 +133,7 @@
             this.button4.TabIndex = 36;
             this.button4.Text = "Summary";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Click += new System.EventHandler(this.Button4_Click);
             // 
             // label8
             // 
@@ -174,7 +174,7 @@
             this.label5.Size = new System.Drawing.Size(702, 364);
             this.label5.TabIndex = 2;
             this.label5.Text = resources.GetString("label5.Text");
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.label5.Click += new System.EventHandler(this.Label5_Click);
             // 
             // label4
             // 
@@ -206,7 +206,7 @@
             this.button3.TabIndex = 35;
             this.button3.Text = "Go online";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // pictureBox6
             // 
@@ -227,7 +227,7 @@
             this.button6.TabIndex = 43;
             this.button6.Text = "Browser";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.Click += new System.EventHandler(this.Button6_Click);
             // 
             // about
             // 
